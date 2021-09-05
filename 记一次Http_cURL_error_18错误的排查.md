@@ -1,4 +1,4 @@
-# 记一次Http  cURL error 18错误的排查
+# 记一次Http  curl error 18错误的排查
 
 ### 现象
 
@@ -40,6 +40,6 @@ php curl  `GuzzleHttp\Client` 中，默认没有`Accept-Encoding: gzip, deflate`
 
 #### 参考：
 
-[Accept-Encoding]: https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Accept-Encodin
-[Content-Length]: https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Length
+[HTTP Headers之Accept-Encoding](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Accept-Encoding)
+[HTTP Headers之Content-Length](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Length)
 
